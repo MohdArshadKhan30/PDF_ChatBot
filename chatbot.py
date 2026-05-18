@@ -57,7 +57,7 @@ def load_embeddings():
 @st.cache_resource
 def load_llm():
     return ChatGroq(
-        groq_api_key=GROQ_API_KEY,
+        groq_api_key=st.secrets["GROQ_API_KEY"],
         model_name="openai/gpt-oss-120b",
         temperature=0
     )
