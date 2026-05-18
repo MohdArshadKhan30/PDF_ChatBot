@@ -1,7 +1,14 @@
 # 📚 PDF ChatBot — RAG-based Document Q&A
 
 A conversational AI app that lets you upload any PDF and ask questions from it in natural language. Built using Retrieval-Augmented Generation (RAG) with LangChain, Groq LLM, FAISS vector store, and Streamlit.
-https://pdf--chatbot-app.streamlit.app/
+---
+
+## 🌐 Live Demo
+
+Try the app live — no installation needed:
+
+👉 [Launch PDF ChatBot](https://pdf--chatbot-app.streamlit.app/)
+
 ---
 
 ## 🚀 Demo
